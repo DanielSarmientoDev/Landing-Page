@@ -1,0 +1,87 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(105deg,#42047e,#07f49e);
+    font-family: 'Roboto', sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container-header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    transition: 1s;
+}
+
+.container-header a{
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+}
+
+.container-header .login{
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.container-header .login:hover{
+    background-color: #42047e;
+    transition: 1s;
+}
+
+.container-nav{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    margin: 60px;
+    margin-top: 120px;
+    justify-content: space-around;
+}
+
+.container-nav .container-nav-left{
+    color: white;
+}
+.container-nav .container-nav-left h1{
+letter-spacing: 2px;
+margin-bottom: 40px;
+}
+
+.container-nav .container-nav-left button{
+    padding: 10px 30px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    border-radius: 10px;
+    transition: 1s;
+margin-top: 30px;
+}
+
+.container-nav .container-nav-left button:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.container-nav .container-nav-right img{
+    width: 300px;
+    height: 300px;
+}
+
+.triangulo{
+    position: absolute;
+    width: 0;
+    margin-left: -7px;
+    height: 0;
+    z-index: -1;
+    border-right: 100vw solid transparent;
+    border-top: 0 solid transparent;
+    border-left: 0 solid #f0ad4e;
+    border-bottom: 100vh solid #f0ad4e;
+    opacity: 1;
+}
